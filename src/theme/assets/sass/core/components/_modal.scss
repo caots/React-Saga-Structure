@@ -1,0 +1,148 @@
+//
+// Modal
+//
+
+// Base
+.modal {
+  // Mobile header
+  .modal-header {
+    align-items: center;
+    justify-content: space-between;
+    @include border-top-radius($modal-content-border-radius);
+    padding: 15px 30px;
+    .close {
+      padding: 0.5rem 0.5rem;
+      margin: -0.5rem -0.5rem -0.5rem auto;
+      box-sizing: content-box;
+      width: $btn-close-width;
+      height: $btn-close-height;
+      padding: $btn-close-padding-y $btn-close-padding-x;
+      color: $btn-close-color;
+      background: transparent escape-svg($btn-close-bg) center / $btn-close-width auto no-repeat; // include transparent for button elements
+      border: 0; // for button elements
+      @include border-radius();
+      opacity: $btn-close-opacity;
+
+      // Override <a>'s hover style
+      &:hover {
+        color: $btn-close-color;
+        text-decoration: none;
+        opacity: $btn-close-hover-opacity;
+      }
+
+      &:focus {
+        outline: 0;
+        box-shadow: $btn-close-focus-shadow;
+        opacity: $btn-close-focus-opacity;
+      }
+
+      &:disabled,
+      &.disabled {
+        pointer-events: none;
+        user-select: none;
+        opacity: $btn-close-disabled-opacity;
+      }
+      span {
+        display: none;
+      }
+    }
+
+    &.header-primary {
+      background-color: $primary;
+
+      .modal-title {
+        font-size: 18px;
+      }
+    }
+
+    // Headings
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 0;
+    }
+  }
+
+  // Mobile dialog
+  .modal-dialog {
+    outline: none !important;
+  }
+
+  .modal-body {
+    padding: 30px;
+  }
+
+  .modal-footer {
+    padding: 10px 30px;
+  }
+}
+
+// Sticky
+.modal.modal-sticky {
+  &.modal-sticky-bottom-end {
+    $sticky-width: 500px;
+    $sticky-width-lg: 600px;
+
+    padding: 0 !important;
+    max-width: $sticky-width;
+    height: auto;
+    position: fixed;
+    left: auto;
+    top: auto;
+    bottom: 25px;
+    right: 25px;
+    margin: 0;
+    box-shadow: 0px 0px 60px -15px rgba(0, 0, 0, 0.2);
+    @include border-radius($border-radius);
+
+    .modal-dialog {
+      position: static;
+      max-width: $sticky-width;
+      width: auto;
+      margin: 0;
+      @include border-radius($border-radius);
+
+      .modal-content {
+        border: 0;
+        @include border-radius($border-radius);
+      }
+    }
+
+    &.modal-sticky-lg {
+      max-width: $sticky-width-lg;
+
+      .modal-dialog {
+        max-width: $sticky-width-lg;
+      }
+    }
+
+    // Tablet & Mobile Modess
+    @include media-breakpoint-down(md) {
+      bottom: 10px;
+      right: 10px;
+      left: 10px;
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .modal-lg {
+    max-width: 90% !important;
+  }  
+  .modal-xl {
+    max-width: 90% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .modal-lg {
+    max-width: 80% !important;
+  }  
+  .modal-xl {
+    max-width: 80% !important;
+  }
+}

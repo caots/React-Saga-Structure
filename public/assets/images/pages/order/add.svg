@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_58116" data-name="Group 58116" transform="translate(0)">
+    <g id="Shape" transform="translate(0)" fill="#39d5ad" stroke="#21b891" stroke-miterlimit="10" stroke-width="1">
+      <rect width="28" height="28" rx="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" rx="13.5" fill="none"/>
+    </g>
+    <path id="Mask" d="M5.078.846V5.078H.846a.846.846,0,1,0,0,1.693H5.078V11a.846.846,0,1,0,1.693,0V6.771H11a.846.846,0,0,0,0-1.693H6.771V.846a.846.846,0,0,0-1.693,0Z" transform="translate(20.007 19.925) rotate(180)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+//
+// To make future updates easier consider overriding the global variables from _variables.bootstrap.scss and _variables.custom.scss for current demo in this file.
+// Note that this file is included first and variables defined in _variables.bootstrap.scss and _variables.custom.scss
+// are not accessible in this file but you can override any global variable as shown below:
+//
+
+// Theme colors
+// Primary
+$primary: #ffc20f;
+$primary-active: if(isDarkMode(), #187de4, #0095e8);
+$primary-light: if(isDarkMode(), #212e48, #f1faff);
+$primary-inverse: #ffffff;
+
+// Success
+$success: #5cb85c;
+$success-active: if(isDarkMode(), #04aa77, #47be7d);
+$success-light: if(isDarkMode(), #1c3238, #e8fff3);
+$success-inverse: #ffffff;
+
+// Info
+$info: #1ca0e3;
+$info-active: #1ca1e3ce;
+$info-light: if(isDarkMode(), #2f264f, #f8f5ff);
+$info-inverse: #ffffff;
+
+// Danger
+$danger: #e96161;
+$danger-active: if(isDarkMode(), #ee2d41, #d9214e);
+$danger-light: if(isDarkMode(), #3a2434, #fff5f8);
+$danger-inverse: #ffffff;
+
+// Warning
+$warning: #ffc20f;
+$warning-active: if(isDarkMode(), #ee9d01, #f1bc00);
+$warning-light: if(isDarkMode(), #392f28, #fff8dd);
+$warning-inverse: #ffffff;
+
+// Color
+$b8ak-bg-light: #eeeeee;
+$b8ak-bg-footer: #f6f6f6;
+$b8ak-dark: #00171f;
+$b8ak-dark-inverse: #ffffff;
+$b8ak-font-color: #00171f;
+$b8ak-muted-color: #bac0c2;
+$b8ak-aside-border: #dbae40;
+$b8ak-placeholder-color: #bac0c2;
+$b8ak-table-header-color: #f6f6f6;
+
+// Order status
+$b8ak-order-new: #00171f;
+$b8ak-order-delivery: #ffc20f;
+$b8ak-order-canceled: #F64E60;
+$b8ak-order-completed-rated: #1ce372;
+$b8ak-order-completed: #ffc20f;
+$b8ak-order-disputed-customer: #bac0c2;
+$b8ak-order-disputed-other: #e31c2a;
+$b8ak-order-in-progress: #1ca0e3;
+
+// User Status
+$b8ak-user-active: #39D5AD;
+$b8ak-user-deactive: #D5394C;
+
+$b8ak-user-admin: #EEE5FF;
+$b8ak-user-driver: #FFF4CC;
+$b8ak-user-worker: #D1FFDB;
+
+$b8ak-user-admin-text: #8950FC;
+$b8ak-user-driver-text: #ff8e00;
+$b8ak-user-worker-text: #03a600;
+
+// Border
+$b8ak-border-radius: 5px;
+$b8ak-border-color: #eeeeee;
+
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+$b8ak-root-family: "Inter", sans-serif;
+$b8ak-root-font-size-sm: 13px;
+$b8ak-root-font-size: 14px;
+$b8ak-root-font-size-lg: 15px;
+$b8ak-root-font-size-xl: 16px;
+
+//input
+$b8ak-input-color: #f6f6f6;
+$b8ak-input-font-weight: 400;
+
+
+
+// Order status
+$b8ak-event-ticket-submitted: #1CA0E3;
+$b8ak-event-ticket-delivered: #FFC20F;
+$b8ak-event-ticket-undelivered: #F64E60;
+$b8ak-event-ticket-reassigned: #5138E5;
+$b8ak-event-ticket-disputed: #F64E60;
+$b8ak-event-ticket-completed: #39D5AD;
+$b8ak-event-ticket-confirmed: #39D5AD;
+$b8ak-event-ticket-declined: #F64E60    ;
+$b8ak-event-ticket-canceled: #F64E60;
+$b8ak-event-ticket-canceled-refund: #F64E60;

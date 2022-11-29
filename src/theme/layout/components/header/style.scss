@@ -1,0 +1,36 @@
+@import '../../../../theme/assets/sass/components/variables.custom';
+
+.app-notification {
+    .nav-pills {
+        .nav-link {
+            color: white;
+            border-radius: 0;
+            &.active {
+                background-color: transparent;
+                color: $primary;
+                border-bottom: 3px solid $primary;
+            }
+        }
+    }
+
+    .noti-item {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        border-bottom: 1px solid $b8ak-border-color;
+        cursor: pointer;
+        .major-svg {
+            svg {
+                max-width: 40px;
+                min-width: 40px;
+                max-height: 50px;
+            }
+            padding-right: 10px;
+            border-right: 1px solid $b8ak-border-color;
+        }
+
+        &:hover {
+            background-color: $b8ak-bg-footer;
+        }
+    }
+}

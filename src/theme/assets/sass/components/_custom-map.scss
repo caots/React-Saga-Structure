@@ -1,0 +1,12 @@
+.wrapper-googlemap{
+    position: relative;
+    width: 100%;
+    height: 500px;
+
+    .clear-render-googleamap{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+    }
+}

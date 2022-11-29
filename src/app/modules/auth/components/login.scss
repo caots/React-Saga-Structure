@@ -1,0 +1,95 @@
+#kt_login_signin_form {
+  .page-title {
+    margin-top: 110px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .page-sub {
+    margin-top: 18px;
+    font-size: 15px;
+  }
+
+  .text-end {
+    margin-top: 27px;
+    text-align: end !important;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  select {
+    font-size: 14px;
+  }
+
+  .btn-action {
+    height: 56px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 43px;
+  }
+
+  .btn-back {
+    height: 56px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 34px;
+  }
+
+  .line-text {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e4e6ef;
+    line-height: 0.1em;
+    margin-top: 45px;
+
+    .text {
+      background: #fff;
+      padding: 0 38px;
+      color: #808B8F;
+    }
+  }
+
+  .h-0 {
+    height: 0;
+  }
+
+  .h-50px {
+    height: 50px;
+  }
+
+  .far {
+    color: black;
+    font-size: 20px;
+  }
+
+  .fas {
+    color: black;
+  }
+
+  .btn-outline-dark {
+    border: 1px solid #00171f !important;
+  }
+
+  .box {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    margin-top: 45px;
+  }
+  .hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .input-font-region {
+    flex: unset !important;
+    width: 100px !important;
+  }
+}

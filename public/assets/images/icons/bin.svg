@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.821" height="14.772" viewBox="0 0 13.821 14.772">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0.25 0.25)">
+    <path id="Path_6280" data-name="Path 6280" d="M2.476,5.951h.951v9.743A1.679,1.679,0,0,0,5.1,17.369h7.136a1.679,1.679,0,0,0,1.656-1.675V5.951h.951a.476.476,0,1,0,0-.951H2.476a.476.476,0,1,0,0,.951Zm10.466,0v9.743a.723.723,0,0,1-.723.723H5.083a.723.723,0,0,1-.7-.723V5.951Z" transform="translate(-2 -3.097)" fill="#e96161" stroke="#e96161" stroke-width="0.5"/>
+    <path id="Path_6281" data-name="Path 6281" d="M11.476,1.951h3.806a.476.476,0,0,0,0-.951H11.476a.476.476,0,0,0,0,.951Z" transform="translate(-6.718 -1)" fill="#e96161" stroke="#e96161" stroke-width="0.5"/>
+    <path id="Path_6282" data-name="Path 6282" d="M12.156,17.66a.476.476,0,0,0,.476-.476V11.476a.476.476,0,0,0-.951,0v5.709A.476.476,0,0,0,12.156,17.66Z" transform="translate(-7.075 -6.243)" fill="#e96161" stroke="#e96161" stroke-width="0.5"/>
+    <path id="Path_6283" data-name="Path 6283" d="M18.8,17.66a.476.476,0,0,0,.476-.476V11.476a.476.476,0,1,0-.951,0v5.709A.476.476,0,0,0,18.8,17.66Z" transform="translate(-10.556 -6.243)" fill="#e96161" stroke="#e96161" stroke-width="0.5"/>
+  </g>
+</svg>
